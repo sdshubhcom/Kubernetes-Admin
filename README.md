@@ -30,7 +30,7 @@
 
 https://github.com/cloudnloud/Kubernetes_Admin_Training/blob/main/class3-k8s-installation/installation.txt
 
-2nd day session : 
+# 2nd day session : 
 
 # Creation of Namspace and pods
 
