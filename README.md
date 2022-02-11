@@ -1,14 +1,6 @@
 # k8s-admin-training
 
-# Before start this training,you must have running CENTOS 7 linux machine.
-
-# AZURE VM
- - Make sure you have created google cloud account
- - Make sure you activated google cloud account
- - This whole training built the lab on google cloud account
- -  
-# Kubernetes Administration Learning LAB Pre-Requisites
-
+# Before start this training,you must have the below Pre-Requisites to loud better in the kubernetes Administration
 
 - Linux Admiistration knowledge is must
 - Ansible Automation/Administration Knowledge is must
