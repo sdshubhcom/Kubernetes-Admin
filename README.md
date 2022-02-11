@@ -1,6 +1,32 @@
 # k8s-admin-training
 
-#1st day session :
+# Before start this training,you must have running CENTOS 7 linux machine.
+
+# AZURE VM
+ - Make sure you have created google cloud account
+ - Make sure you activated google cloud account
+ - This whole training built the lab on google cloud account
+ -  
+# Kubernetes Administration Learning LAB Pre-Requisites
+
+
+- Linux Admiistration knowledge is must
+- Ansible Automation/Administration Knowledge is must
+- Google cloud account should be created and activated.
+- Hub.docker.com login need to be created
+- github.com account need to be created
+
+** each VM should be like below **
+  
+  | Purpose   | VM Name          | CPU | Memory | Disk  | Operating System |
+  | -------   | ---------------- | --- | ------ | ----  | ---------------- |
+  | Machine 1 | k8s master       |  2  | 4 GB   | 50 GB | Ubuntu  18.0 LTS |
+  | Machine 2 | Worker node1     |  2  | 4 GB   | 50 GB | Ubuntu  18.0 LTS |
+  | Machine 3 | Worker node2     |  2  | 4 GB   | 50 GB | Ubuntu  18.0 LTS |
+
+
+
+# 1st day session :
 
 1. How Deployments were happening before kubernetes.
 2. why we need kubernetes what is the actual need of that.
@@ -9,8 +35,9 @@
 5. Explanation of each componenets and its workflow.
 6. what is pod.
 7. installation of Kubernets.
+```
 https://github.com/cloudnloud/Kubernetes_Admin_Training/blob/main/class3-k8s-installation/installation.txt
-
+```
 2nd day session : 
 
 1. Creation of Namspace and pods
