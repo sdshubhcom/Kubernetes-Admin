@@ -5,16 +5,15 @@
 - Linux Admiistration knowledge is must
 - Ansible Automation/Administration Knowledge is must
 - Google cloud account should be created and activated.
-- Hub.docker.com login need to be created
 - github.com account need to be created
 
 ** each VM should be like below **
   
   | Purpose   | VM Name          | CPU | Memory | Disk  | Operating System |
   | -------   | ---------------- | --- | ------ | ----  | ---------------- |
-  | Machine 1 | k8s master       |  2  | 4 GB   | 50 GB | Ubuntu  18.0 LTS |
-  | Machine 2 | Worker node1     |  2  | 4 GB   | 50 GB | Ubuntu  18.0 LTS |
-  | Machine 3 | Worker node2     |  2  | 4 GB   | 50 GB | Ubuntu  18.0 LTS |
+  | Machine 1 | k8s master       |  2  | 4 GB   | 10 GB | Ubuntu  18.0 LTS |
+  | Machine 2 | Worker node1     |  2  | 4 GB   | 10 GB | Ubuntu  18.0 LTS |
+  | Machine 3 | Worker node2     |  2  | 4 GB   | 10 GB | Ubuntu  18.0 LTS |
 
 
 
@@ -35,7 +34,18 @@ https://github.com/cloudnloud/Kubernetes_Admin_Training/blob/main/class3-k8s-ins
 # Creation of Namspace and pods
 
 # create name space
-
+```
+kubectl get ns
+```
+```
+kubectl get all -n default
+```
+```
+kubectl get all -n kube-system 
+```
+```
+kubectl get all -n kube-system -o wide
+```
 ```
 kubectl create ns cloudnloud
 ```
