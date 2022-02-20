@@ -149,7 +149,7 @@ kubectl delete -f https://raw.githubusercontent.com/cloudnloud/Kubernetes_Admin_
   
 # Replicaset
 
-# SIngle Replicaset
+# Single Replicaset
 ```  
 kubectl apply -f https://raw.githubusercontent.com/cloudnloud/Kubernetes_Admin_Training/main/class8-replicaset/replicaset/1-singlereplica.yml
 ```
