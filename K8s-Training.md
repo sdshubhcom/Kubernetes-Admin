@@ -382,4 +382,4 @@ kubectl get all -o wide
 34.69.167.205	hw1.example.com
 34.69.167.205	hw2.example.com
 
-access in broswer now you can easily understand ingress
+access in broswer now you can easily understand ingress.
